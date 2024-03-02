@@ -9,12 +9,20 @@
 }
 
 .hero-container {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
   background-color: #403d58;
   color: #fff;
-  height: 100vh;
+ 
+  /*
+  height: 100vh */
 }
 
+
+
 .content-container {
+
   background-color: #dbd56e;
   height: 600px;
 }
