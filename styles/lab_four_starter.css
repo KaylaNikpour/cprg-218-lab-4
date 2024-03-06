@@ -67,16 +67,15 @@ h1 {
   cursor: pointer;
   padding: 30px;
   width: 100%;
-  border: none;
+  border: solid;
   text-align: left;
   outline: none;
   transition: 0.6s;
-  font-size: 40px;
+  font-size: 30px;
 }
 .active, .accordion:hover {
   background-color: grey;
 }
-
 .material-symbols-outlined:after {
   content: '\e5cf';
   font-size: 50px;
