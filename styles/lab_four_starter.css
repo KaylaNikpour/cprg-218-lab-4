@@ -65,23 +65,35 @@ h1 {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 30px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  transition: 0.4s;
-  font-size: 15px;
+  transition: 0.6s;
+  font-size: 40px;
 }
 .active, .accordion:hover {
-  background-color: blue;
+  background-color: grey;
 }
+
+.material-symbols-outlined:after {
+  content: '\e5cf';
+  font-size: 50px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+
 .panel {
-  padding: 0 18px;
-  background-color: white;
+  padding:0 30px;
+  background-color: lightpink;
   max-height: 0;
   overflow:hidden;
+  transition: max-height 0.4s ease-out;
 }
+
 .footer-container {
   background-color: #f2efea;
   width: 100%;

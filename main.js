@@ -1,7 +1,9 @@
+console.log('Hello, World');
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
-for (i = 0; i < acc.length; i++) {
+for (i = 0; i < acc.length; i++) {console.log("are we here");
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
@@ -12,3 +14,4 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
