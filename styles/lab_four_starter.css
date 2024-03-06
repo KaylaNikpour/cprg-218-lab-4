@@ -84,7 +84,6 @@ h1 {
   margin-left: 5px;
 }
 
-
 .panel {
   padding:0 30px;
   background-color: lightpink;
@@ -99,3 +98,31 @@ h1 {
   height: 300px;
   position: relative;
 }
+
+.fa {
+  padding: 10px;
+  font-size: 2cqb;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+

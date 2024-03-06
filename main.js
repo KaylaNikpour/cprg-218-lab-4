@@ -15,3 +15,5 @@ for (i = 0; i < acc.length; i++) {console.log("are we here");
   });
 }
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
